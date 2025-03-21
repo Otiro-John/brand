@@ -436,4 +436,66 @@ nav ul li a:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+    }
+
+    .contact .contact-text {
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
+    }
+
+    .contact img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .contact form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .contact input,
+    .contact textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    .contact button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact img {
+        max-width: 250px;
+    }
+
+    .contact input,
+    .contact textarea {
+        font-size: 14px;
+    }
+
+    .contact button {
+        font-size: 14px;
+    }
+}
+
+
  
