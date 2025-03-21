@@ -350,6 +350,8 @@ nav ul li a:hover {
     .card{
         width: 100%;
     }
+    .service .card img{
+        width: 100%;
     .work img{
         width: 100%;
     }
